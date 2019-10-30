@@ -1,0 +1,9 @@
+{
+  "name": "test-parcel2-includes",
+  "private": true,
+  "main": "dist/index.html",
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.2.1",
+    "pug": "^2.0.4"
+  }
+}
