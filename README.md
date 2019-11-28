@@ -1,6 +1,6 @@
 # test-parcel2-includes
 
-> Demonstrates that included files don't cause a rebuild or cache invalidation
+> Demonstrates that included files don't ~~cause a rebuild or~~ cache invalidation
 
 This repository has a single `index.pug` file
 which includes `include.pug`.
@@ -8,7 +8,15 @@ which includes `include.pug`.
 At least for the Parcel 1 pug transformer,
 the cases listed below would work.
 
-## Updating `include.pug` doesn't trigger a rebuild
+## ~~Updating `include.pug` doesn't trigger a rebuild~~
+
+**Note:**
+[parcel@v2.0.0-alpha.3.2](https://www.npmjs.com/package/parcel/v/2.0.0-alpha.3.2)
+does seem to trigger a rebuild
+when the included file changes.
+However, the cache is not invalidated.
+
+---
 
 When running `watch`, updating `include.pug` doesn't trigger a rebuild.
 

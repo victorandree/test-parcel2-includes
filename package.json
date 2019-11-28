@@ -3,7 +3,7 @@
   "private": true,
   "main": "dist/index.html",
   "devDependencies": {
-    "parcel": "^2.0.0-alpha.2.1",
+    "parcel": "^2.0.0-alpha.3.2",
     "pug": "^2.0.4"
   }
 }
